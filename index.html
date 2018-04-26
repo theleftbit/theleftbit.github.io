@@ -10,15 +10,14 @@
   <style>
     html {
       font-size: 62.5%;
+      background: white;
     }
     body {
-      font-family: 'Oswald', sans-serif;
-      background: black;
-      color: white;
+      color: black;
       margin: 0;
     }
     svg path {
-      fill: white;
+      fill: black;
     }
     svg {
       margin-top: 30px;
@@ -26,16 +25,26 @@
     }
     p {
       margin-top: 20px;
-      font-weight: 500;
-      line-height: 1.2;
       font-size: 2.4rem;
     }
+    h1 {
+      font-family: 'Oswald', sans-serif;
+    }
     a {
-      position: absolute;
       text-decoration: underline;
       color: inherit;
       margin-top: 12px;
       font-size: 3.8rem;
+      font-family: 'Oswald', sans-serif;
+    }
+    .client {
+      height: 160px;
+      background: black;
+      margin-top: 32px;
+    }
+    .clientName {
+      color: white;
+      font-family: 'Oswald', sans-serif;
     }
   </style>
   </head>
@@ -73,6 +82,33 @@
           <p>We are a mobile software studio focused on helping organizations develop and create solutions that will make your ideas possible.</p>
           <p>Made with ❤️ in Barcelona.</p>
         </div>
+      </div>
+      <div class="row">
+        <h1>Our clients</h1>
+      </div>
+      <div class="row">
+        <div class="twelve columns">
+          <div class="four columns client">
+            <p class="clientName">Client1</p>
+          </div>
+          <div class="four columns client">
+            <p class="clientName">Client2</p>
+          </div>
+          <div class="four columns client">
+            <p class="clientName">Client3</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+          <div class="four columns client">
+            <p class="clientName">Client4</p>
+          </div>
+          <div class="four columns client">
+            <p class="clientName">Client5</p>
+          </div>
+          <div class="four columns client">
+            <p class="clientName">Client6</p>
+          </div>
       </div>
       <div class="row">
         <div class="twelve columns">
