@@ -6,18 +6,18 @@
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
   <style>
     html {
-      font-size: 62.5%;
       background: white;
     }
     body {
+      font-family: 'Roboto', sans-serif;
       color: black;
       margin: 0;
     }
     svg path {
-      fill: black;
+      fill: white;
     }
     svg {
       margin-top: 30px;
@@ -26,16 +26,19 @@
     p {
       margin-top: 20px;
       font-size: 2.4rem;
+      color: white;
     }
     h1 {
-      font-family: 'Oswald', sans-serif;
+      margin-top: 30px;
     }
     a {
       text-decoration: underline;
       color: inherit;
       margin-top: 12px;
       font-size: 3.8rem;
-      font-family: 'Oswald', sans-serif;
+    }
+    .welcome {
+      color: white;
     }
     .client {
       height: 160px;
@@ -44,15 +47,27 @@
     }
     .clientName {
       color: white;
-      font-family: 'Oswald', sans-serif;
+    }
+    .dark {
+      background: rgb(34,45,53);
+    }
+    .service {
+      color: rgb(34,45,53);
+    }
+    .service h1 {
+      text-align: center;
+    }
+    .service p {
+      color: rgb(34,45,53);
     }
   </style>
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="four columns">
-          <svg version="1.2" baseProfile="tiny" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+    <section class="dark">
+      <div class="container">
+        <div class="row">
+          <div class="four columns">
+            <svg version="1.2" baseProfile="tiny" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
   x="0px" y="0px" viewBox="170 55 500 490" xml:space="preserve">
   <path d="M223.2,466.4c-1-0.3-1.7-1.2-1.7-2.2v0v0c0-1.1,0.7-2,1.7-2.2c4.3-1.2,15.3-5.3,17.4-18.2c2.6-16.1-0.5-44.1-8.2-50.1
   c-7.2-5.6-13.3-5.6-15.1-5.6h-17.4c-6.9,0-12.5,5.6-12.5,12.5v63.7v58.7c0,9.7,7.8,17.5,17.5,17.5h12.5c1.9,0,7.9,0,15.1-5.6
@@ -74,13 +89,30 @@
   C589.2,240.4,590.2,239.4,591.5,239.4z"/>
   <path d="M282.8,405.4v-17.5h-7.4h-20.1h-7.4v17.5h4.6c1.6,0,2.8,1.3,2.8,2.8V520c0,1.6-1.3,2.8-2.8,2.8h-4.6v17.5h7.4h20.1h7.4
   v-17.5h-4.6c-1.6,0-2.8-1.3-2.8-2.8V408.2c0-1.6,1.3-2.8,2.8-2.8H282.8z"/>
-          </svg>
+            </svg>
+          </div>
+        </div>
+        <div class="row">
+          <div class="twelve columns">
+            <h1 class="welcome">World class mobile development studio.<br>Ready when you are.</h1>
+            <p>We are a mobile software studio focused on helping organizations develop and create solutions that will make your ideas possible. Made with ❤️ in Barcelona.</p>
+          </div>
         </div>
       </div>
+    </section>
+    <div class="container">
       <div class="row">
-        <div class="twelve columns">
-          <p>We are a mobile software studio focused on helping organizations develop and create solutions that will make your ideas possible.</p>
-          <p>Made with ❤️ in Barcelona.</p>
+        <div class="four columns service">
+          <h1>Studio</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor</p>
+        </div>
+        <div class="four columns service">
+          <h1>Studio</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor</p>
+        </div>
+        <div class="four columns service">
+          <h1>Studio</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor</p>
         </div>
       </div>
       <div class="row">
@@ -116,5 +148,6 @@
         </div>
       </div>
     </div>
+    </section>
   </body>
 </html>
