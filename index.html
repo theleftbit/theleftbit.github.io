@@ -6,7 +6,7 @@
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
   <style>
     html {
       background: white;
@@ -20,7 +20,6 @@
       fill: white;
     }
     svg {
-      margin-top: 30px;
       width: 200px;
     }
     p {
@@ -29,11 +28,12 @@
       color: white;
     }
     h1 {
-      margin-top: 30px;
+      /* margin-top: 30px; */
     }
     a {
-      text-decoration: underline;
-      color: inherit;
+      font-weight: 400;
+      text-decoration: none;
+      color: white;
       margin-top: 12px;
       font-size: 3.8rem;
     }
@@ -42,7 +42,7 @@
     }
     .client {
       height: 160px;
-      background: black;
+      background: #eee;
       margin-top: 32px;
     }
     .clientName {
@@ -55,10 +55,14 @@
       color: rgb(34,45,53);
     }
     .service h1 {
-      text-align: center;
+      /* text-align: center; */
     }
     .service p {
       color: rgb(34,45,53);
+    }
+    section {
+      padding-bottom: 50px;
+      padding-top: 50px;
     }
   </style>
   </head>
@@ -95,11 +99,12 @@
         <div class="row">
           <div class="twelve columns">
             <h1 class="welcome">World class mobile development studio.<br>Ready when you are.</h1>
-            <p>We are a mobile software studio focused on helping organizations develop and create solutions that will make your ideas possible. Made with ❤️ in Barcelona.</p>
+            <p>We are a mobile software studio focused on helping organizations develop and create solutions that will make your ideas possible.<br>Made with ❤️ in Barcelona.</p>
           </div>
         </div>
       </div>
     </section>
+    <section>
     <div class="container">
       <div class="row">
         <div class="four columns service">
@@ -115,11 +120,14 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labor</p>
         </div>
       </div>
-      <div class="row">
-        <h1>Our clients</h1>
-      </div>
-      <div class="row">
-        <div class="twelve columns">
+    </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <h1>Our clients</h1>
+        </div>
+        <div class="row">
           <div class="four columns client">
             <p class="clientName">Client1</p>
           </div>
@@ -131,20 +139,12 @@
           </div>
         </div>
       </div>
-      <div class="row">
-          <div class="four columns client">
-            <p class="clientName">Client4</p>
-          </div>
-          <div class="four columns client">
-            <p class="clientName">Client5</p>
-          </div>
-          <div class="four columns client">
-            <p class="clientName">Client6</p>
-          </div>
-      </div>
+    </section>
+    <section class="dark">
+      <div class="container">
       <div class="row">
         <div class="twelve columns">
-          <a href="mailto:hola@theleftbit.com">hola@theleftbit.com</a>
+          <h1 class="welcome">Talk to us.<br><a href="mailto:hola@theleftbit.com">hola@theleftbit.com</a></h1>
         </div>
       </div>
     </div>
