@@ -42,10 +42,16 @@
     .client {
       height: 160px;
       background: #eee;
-      margin-top: 32px;
+      position:relative;
     }
-    .clientName {
-      color: white;
+    img.client {
+      height: 80px;
+      position:absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+      margin:auto;
     }
     .dark {
       background-color: #000;
@@ -108,13 +114,13 @@
         </div>
         <div class="row">
           <div class="four columns client">
-            <p class="clientName">Client1</p>
+            <img class="client" src="assets/client-modo.png">
           </div>
           <div class="four columns client">
-            <p class="clientName">Client2</p>
+            <img class="client" src="assets/client-codesyntax.png">
           </div>
           <div class="four columns client">
-            <p class="clientName">Client3</p>
+            <img class="client" src="assets/client-viscaweb.png">
           </div>
         </div>
       </div>
