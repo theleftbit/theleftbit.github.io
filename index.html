@@ -1,145 +1,156 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>The Left Bit</title>
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      font-weight: 100;
-      color: black;
-      margin: 0;
-    }
-    svg path {
-      fill: white;
-    }
-    svg {
-      width: 140px;
-      margin-bottom: 20px;
-    }
-    p {
-      margin-top: 20px;
-      font-size: 2rem;
-      color: white;
-    }
-    a {
-      font-weight: 400;
-      text-decoration: none;
-      color: white;
-      margin-top: 12px;
-      font-size: 3.8rem;
-    }
-    a:hover {
-      color: inherit;
-      text-decoration: underline;
-    }
-    .welcome {
-      color: white;
-    }
-    .client {
-      margin-bottom: 4%;
-      height: 160px;
-      background: #eee;
-      position:relative;
-    }
- 
-    img.client {
-      height: 80px;
-      position:absolute;
-      top:0;
-      bottom:0;
-      left:0;
-      right:0;
-      margin:auto;
-    }
-    .dark {
-      background-color: #000;
-    }
-    .white {
-      background: #ffffff;
-    }
-    .service p {
-      color: rgb(34,45,53);
-    }
-    section {
-      padding-bottom: 50px;
-      padding-top: 50px;
-    }
-    section.contiguous {
-      padding-top: 0px;
-    }
-  </style>
-  </head>
-  <body class="dark">
-    <section class="dark">
-    <div class="container">
-      <div class="row">
-        <div class="four columns">
-          <svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="30 0 300 595.28">
-            <path class="cls-1" d="M88.24,466.37a2.34,2.34,0,0,1-1.74-2.25v0h0a2.33,2.33,0,0,1,1.74-2.25c4.31-1.16,15.29-5.34,17.39-18.24,2.62-16.12-.48-44.14-8.25-50.13-7.25-5.59-13.3-5.59-15.15-5.59H64.79a12.55,12.55,0,0,0-12.55,12.55V522.84a17.49,17.49,0,0,0,17.49,17.49h12.5c1.85,0,7.9,0,15.15-5.6,7.77-6,10.87-34,8.25-50.13C103.53,471.7,92.55,467.52,88.24,466.37ZM72.35,406.18a2.32,2.32,0,0,1,2.32-2.32h3.75s8-.37,8,8.87v33.63s0,8.12-7.28,8.12H74.67a2.32,2.32,0,0,1-2.32-2.32Zm14,109.3c0,9.23-8,8.86-8,8.86H74.67A2.32,2.32,0,0,1,72.35,522v-46a2.32,2.32,0,0,1,2.32-2.32h4.42c7.28,0,7.28,8.12,7.28,8.12Z"/><path class="cls-1" d="M189.12,407.69V540.33h-19.9V407.69a2.32,2.32,0,0,0-2.32-2.32H152.14V387.88h53.44v17.49H191.44A2.32,2.32,0,0,0,189.12,407.69Z"/><path class="cls-1" d="M72.15,76.32V209H52.24V76.32A2.32,2.32,0,0,0,49.92,74H35.17V56.51H88.61V74H74.47A2.32,2.32,0,0,0,72.15,76.32Z"/><path class="cls-1" d="M301.72,241.69V374.33h-19.9V241.69a2.32,2.32,0,0,0-2.32-2.32H264.74V221.88h53.44v17.49H304A2.32,2.32,0,0,0,301.72,241.69Z"/><path class="cls-1" d="M94.83,356.84v17.49h-30a12.55,12.55,0,0,1-12.55-12.55V221.88H72.32V354.52a2.32,2.32,0,0,0,2.32,2.32Z"/><path class="cls-1" d="M205.58,139.48V122H185.39a2.32,2.32,0,0,1-2.32-2.32V74.32A2.32,2.32,0,0,1,185.39,72h20.19V54.51h-30A12.55,12.55,0,0,0,163,67.06V194.41A12.55,12.55,0,0,0,175.54,207h30V189.47H185.39a2.32,2.32,0,0,1-2.32-2.32V141.8a2.32,2.32,0,0,1,2.32-2.32Z"/><path class="cls-1" d="M130,56.51v65.16a2.32,2.32,0,0,1-2.32,2.32H116.93a2.32,2.32,0,0,1-2.32-2.32V56.51H94.5V209h20.11V143.8a2.32,2.32,0,0,1,2.32-2.32h10.74A2.32,2.32,0,0,1,130,143.8V209h20.1V56.51Z"/><path class="cls-1" d="M238.5,239.37h20.19V221.88h-30a12.55,12.55,0,0,0-12.55,12.55v54.95l-107.1.15a3.17,3.17,0,0,1-3.18-3.17l.57-6.52a9,9,0,0,1,7.32-8.84l91.87-29.47V222L101.4,252.26c-6.54,1.15-11.62,5.95-14.33,11.74a22.86,22.86,0,0,0-2,8.65l-.48,8.45q-.79,17,0,34l.56,10.28a22.12,22.12,0,0,0,.27,2.68c1.8,10.06,7.74,15.37,16.16,16.78l104,29.11V354.47L113.8,326.15a9,9,0,0,1-7.41-8.86l-.57-7.27a3.17,3.17,0,0,1,3.18-3.17H216.1v67.48h20.08V306.85h22.51V289.36H236.18V241.69A2.32,2.32,0,0,1,238.5,239.37Z"/><path class="cls-1" d="M147.76,405.37V387.88H112.92v17.49h4.56a2.81,2.81,0,0,1,2.81,2.81V520a2.81,2.81,0,0,1-2.81,2.81h-4.56v17.49h34.84V522.84h-4.55A2.81,2.81,0,0,1,140.4,520V408.18a2.81,2.81,0,0,1,2.81-2.81Z"/>
-          </svg>
-        </div>
-        <div class="row">
-          <div class="twelve columns">
-            <h1 class="welcome">World class mobile development studio.<br>Ready when you are.</h1>
-            <p>We are a mobile software studio focused on helping organizations develop and create solutions that will make your ideas possible. Made with ❤️ in Barcelona.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="white">
-    <div class="container">
-      <div class="row">
-        <div class="four columns service">
-          <h1>Plan</h1>
-          <p>We bring our decade-long experience to help you define the strategy, design and architecture that will make your project shine. From day one.</p>
-        </div>
-        <div class="four columns service">
-          <h1>Develop</h1>
-          <p>Best in class engineers will push your codebase from good to awesome. Wether you have an established product used by millions or are launching a small startup, we can help.
-</p>
-        </div>
-        <div class="four columns service">
-          <h1>Scale</h1>
-          <p>Rock solid practices for engineering, testing and deployment will give your project the foundation for the growth you envision and your clients deserve.</p>
-        </div>
-      </div>
-    </div>
-    </section>
-    <section class="white contiguous">
-      <div class="container">
-        <div class="row">
-          <h1>Our clients</h1>
-        </div>
-        <div class="row">
-          <div class="six columns client">
-            <img class="client" src="assets/client-modo.png">
-          </div>
-          <div class="six columns client">
-            <img class="client" src="assets/client-codesyntax.png">
-          </div>
-        </div>
-        <div class="row">
-          <div class="six columns client">
-              <img class="client" src="assets/client-viscaweb.png">
-            </div>
-          <div class="six columns client">
-            <img class="client" src="assets/client-narieda.png">
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="dark">
-      <div class="container">
-      <div class="row">
-        <div class="twelve columns">
-          <h1 class="welcome">Talk to us.<br><a href="mailto:hola@theleftbit.com">hola@theleftbit.com</a></h1>
-        </div>
-      </div>
-    </div>
-    </section>
-  </body>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="theleftbit, In today’s market, technology is expanding in all kind of industries. We can help you create and improve digital products that span from software to UX">
+	<meta name="author" content="Daniel Guerra">
+	<meta name="keywords" content="theleftbit, leftbit, code, developers"/>
+	<meta name="robots" content="index,follow"/>
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+
+	<title>theleftbit</title>
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullpage.min.css"/>
+	<link rel="stylesheet" type="text/css" href="styles.min.css">
+</head>
+<body id="home">
+<header id="home-header">
+	<h1>
+		<a id="home-link" href="/" target="_self" role="link" title="Home link">
+			<svg id="logo-desktop" xmlns="http://www.w3.org/2000/svg" width="146" height="32" viewBox="0 0 146 32">
+				<path fill="#FFF" fill-rule="evenodd"
+					  d="M7.703 4.158V32H3.557V4.158a.485.485 0 0 0-.483-.487H0V.001h11.131v3.67H8.186a.485.485 0 0 0-.483.487zm97.364 0V32h-4.146V4.158a.485.485 0 0 0-.483-.487h-3.073V.001h11.13v3.67h-2.945a.485.485 0 0 0-.483.487zm-55.178 24.17V32H43.63a2.624 2.624 0 0 1-2.614-2.634V.001H45.2v27.84c0 .27.217.488.484.488h4.206zM35.496 17.836H31.29a.485.485 0 0 0-.483.488v9.519c0 .269.216.487.483.487h4.206V32H29.24a2.624 2.624 0 0 1-2.614-2.634V2.634A2.624 2.624 0 0 1 29.24 0h6.257v3.671H31.29a.485.485 0 0 0-.483.487v9.52c0 .268.216.486.483.486h4.206v3.671zM19.75 0h4.189v32H19.75V18.323a.485.485 0 0 0-.483-.487H17.03a.485.485 0 0 0-.483.487V32h-4.188V0h4.188v13.677c0 .27.216.488.483.488h2.237a.485.485 0 0 0 .483-.488V0zm72.148 3.671a.485.485 0 0 0-.483.487v10.007h4.69v3.67h-4.69V32h-4.182V17.836H52.838a.664.664 0 0 0-.661.666l.119 1.526c0 .914.65 1.698 1.542 1.86l19.119 5.944v4.09l-21.67-6.11c-1.756-.295-2.993-1.41-3.367-3.522a4.373 4.373 0 0 1-.056-.563l-.117-2.157a78.137 78.137 0 0 1 .003-7.14l.101-1.774a4.83 4.83 0 0 1 .42-1.814c.565-1.217 1.622-2.225 2.985-2.465l21.7-6.345v4.091L53.82 10.31a1.886 1.886 0 0 0-1.524 1.856l-.12 1.368c0 .368.297.667.662.667l34.395-.032V2.634A2.624 2.624 0 0 1 89.846 0h6.258v3.671h-4.206zm50.673.487V32h-4.145V4.158a.485.485 0 0 0-.483-.487h-3.074V.001H146v3.67h-2.945a.485.485 0 0 0-.484.487zm-8.615-.487h-.948a.588.588 0 0 0-.586.59V27.74c0 .326.262.59.586.59h.948v3.67H126.7v-3.67h.948a.588.588 0 0 0 .586-.59V4.26a.588.588 0 0 0-.586-.59h-.948V.001H133.956v3.67zM121.17 26.785c0 1.938-1.656 1.86-1.656 1.86h-.781a.485.485 0 0 1-.483-.487v-9.65c0-.27.216-.488.483-.488h.92c1.517 0 1.517 1.705 1.517 1.705v7.06zm-2.92-22.943c0-.27.216-.487.483-.487h.781s1.656-.078 1.656 1.86v7.06s0 1.705-1.516 1.705h-.921a.485.485 0 0 1-.483-.488v-9.65zm3.309 12.633a.488.488 0 0 1-.362-.471v-.008c0-.222.15-.414.362-.471.897-.243 3.185-1.12 3.622-3.828.547-3.385-.1-9.266-1.718-10.523C121.952 0 120.692 0 120.306 0h-3.632a2.624 2.624 0 0 0-2.614 2.634v25.695c0 2.027 1.631 3.671 3.643 3.671h2.603c.385 0 1.645 0 3.156-1.174 1.618-1.257 2.265-7.138 1.718-10.523-.437-2.708-2.725-3.585-3.622-3.828z"/>
+			</svg>
+			<svg id="logo-mobile" xmlns="http://www.w3.org/2000/svg" width="58" height="98" viewBox="0 0 58 98">
+				<path fill="#1B1B1B" fill-rule="evenodd"
+					  d="M54.612 37.028V64h-4.097V37.028a.475.475 0 0 0-.477-.472H47V33h11v3.556h-2.91a.475.475 0 0 0-.478.472zM12 60.444V64H5.652C4.187 64 3 62.858 3 61.448V33h4.242v26.972c0 .26.22.472.49.472H12zm22.712-43.228h-4.13a.472.472 0 0 0-.475.47v9.188c0 .26.212.47.474.47h4.13v3.544h-6.144c-1.418 0-2.567-1.139-2.567-2.543V2.543C26 1.137 27.15 0 28.567 0h6.145v3.543h-4.13a.472.472 0 0 0-.475.47v9.189c0 .26.212.47.474.47h4.13v3.544zm-23.87 75.75v-6.814s0-1.646-1.457-1.646h-.884a.467.467 0 0 0-.464.47v9.316c0 .26.208.47.464.47h.75s1.59.075 1.59-1.796zM8.036 70.82v9.315c0 .26.208.47.464.47h.884c1.456 0 1.456-1.645 1.456-1.645v-6.815c0-1.87-1.59-1.795-1.59-1.795H8.5a.467.467 0 0 0-.464.47zm3.177 12.194c.862.234 3.058 1.081 3.478 3.695.525 3.267-.096 8.943-1.65 10.157C11.592 98 10.382 98 10.012 98H7.513c-1.931 0-3.497-1.586-3.497-3.544V69.655c0-1.404 1.123-2.543 2.51-2.543h3.486c.37 0 1.58 0 3.03 1.133 1.554 1.214 2.175 6.89 1.65 10.158-.42 2.613-2.616 3.46-3.478 3.694a.471.471 0 0 0-.347.455v.008c0 .214.143.4.347.455zm20.377-11.889V98h-3.98V71.126c0-.26-.208-.47-.465-.47h-2.951v-3.544h10.688v3.544h-2.828a.467.467 0 0 0-.464.47zM7.533 4.052v26.874H3.479V4.052c0-.26-.212-.47-.473-.47H0V.038h10.886v3.544h-2.88c-.262 0-.473.21-.473.47zM19.022 0H23v31h-3.978V17.75a.466.466 0 0 0-.46-.472h-2.124a.466.466 0 0 0-.46.472V31H12V0h3.978v13.25c0 .26.206.472.46.472h2.125c.253 0 .459-.212.459-.472V0zm22.813 36.556a.475.475 0 0 0-.479.472v9.694H46v3.556h-4.644V64h-4.14V50.278H15.121a.65.65 0 0 0-.656.646l.118 1.478c0 .886.643 1.645 1.527 1.802l18.933 5.758v3.963l-21.46-5.92c-1.737-.286-2.963-1.366-3.333-3.412a4.131 4.131 0 0 1-.056-.545l-.116-2.09a74 74 0 0 1 .003-6.916l.101-1.718a4.594 4.594 0 0 1 .415-1.758c.56-1.179 1.607-2.155 2.957-2.388l21.49-6.147v3.964l-18.951 5.993c-.876.164-1.51.92-1.51 1.798l-.118 1.325a.65.65 0 0 0 .656.646l22.093-.032V35.552c0-1.41 1.159-2.552 2.588-2.552H46v3.556h-4.165zM23 70.556h-.915a.568.568 0 0 0-.565.572v22.744c0 .315.253.572.565.572H23V98h-7v-3.556h.915a.568.568 0 0 0 .565-.572V71.128a.568.568 0 0 0-.565-.572H16V67h7v3.556z"/>
+			</svg>
+			<span style="visibility: hidden;">theleftbit</span>
+		</a>
+	</h1>
+	<div id="header-menu-button">
+		<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+			<g fill="none" fill-rule="evenodd">
+				<path fill="#1B1B1B"
+					  d="M3.5 3h14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-14a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm0 16h14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-14a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm0-8h17a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-17a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
+			</g>
+		</svg>
+	</div>
+	<nav>
+		<div>
+			<a href="services.html" target="_self" title="Service" aria-selected="false">Services</a>
+			<div class="underline"></div>
+		</div>
+		<div>
+			<a href="culture.html" target="_self" title="Culture"  aria-selected="false">Culture</a>
+			<div class="underline"></div>
+		</div>
+		<div>
+			<a href="team.html" target="_self" title="Team" aria-selected="false">Team</a>
+			<div class="underline"></div>
+		</div>
+	</nav>
+</header>
+<section class="menu-mobile" role="navigation">
+	<div class="menu-mobile-header">
+		<h3>Menu</h3>
+		<svg id="header-menu-button-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+			 viewBox="0 0 24 24">
+			<g fill="none" fill-rule="evenodd">
+				<path d="M0 0h24v24H0z"/>
+				<path fill="#1B1B1B"
+					  d="M12 10.586l7.425-7.425a.5.5 0 0 1 .707 0l.707.707a.5.5 0 0 1 0 .707L13.414 12l7.425 7.425a.5.5 0 0 1 0 .707l-.707.707a.5.5 0 0 1-.707 0L12 13.414 4.575 20.84a.5.5 0 0 1-.707 0l-.707-.707a.5.5 0 0 1 0-.707L10.586 12 3.16 4.575a.5.5 0 0 1 0-.707l.707-.707a.5.5 0 0 1 .707 0L12 10.586z"/>
+			</g>
+		</svg>
+	</div>
+	<nav role="navigation">
+		<a href="services.html" target="_self" title="Service" aria-selected="false">Service</a>
+		<a href="team.html" target="_self" title="Team" aria-selected="true">Team</a>
+		<a href="culture.html" target="_self" title="Culture"  aria-selected="false">Culture</a>
+	</nav>
+</section>
+<div id="fullpage">
+	<div class="section" id="section1" role="main">
+		<section class="slide home-basic" data-anchor="slide-basic-1">
+			<div class="container content">
+				<div class="row justify-content-md-center">
+					<div class="col-10">
+						<h1>
+							Code
+						</h1>
+						<h2>We love</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="slide home-complex" id="home2" data-anchor="slide-complex-1">
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<img src="assets/img/img-videoask-1.png" alt="video call example"/>
+					<img src="assets/img/img-videoask-2.png" alt="video call example"/>
+					<img src="assets/img/img-videoask-3.png" alt="video call example"/>
+				</div>
+			</div>
+		</section>
+		<section class="slide home-basic" data-anchor="slide-basic-2">
+			<div class="container content">
+				<div class="row justify-content-md-center">
+					<div class="col-10">
+						<h1>
+							Digital products
+						</h1>
+						<h2>We create</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="slide home-complex" id="home3" data-anchor="slide-complex-2">
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<img src="assets/img/img-sharify-1.png" alt="video call example"/>
+					<img src="assets/img/img-sharify-2.png" alt="video call example"/>
+					<img src="assets/img/img-sharify-3.png" alt="video call example"/>
+				</div>
+			</div>
+		</section>
+		<section class="slide home-basic" data-anchor="slide-basic-3">
+			<div class="container content">
+				<div class="row justify-content-md-center">
+					<div class="col-10">
+						<h1>
+							You scale
+						</h1>
+						<h2>We help</h2>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="slide home-complex" id="home4" data-anchor="slide-complex-3">
+			<div class="container">
+				<div class="row justify-content-md-center">
+					<img src="assets/img/img-click-1.png" alt="video call example"/>
+					<img src="assets/img/img-click-2.png" alt="video call example"/>
+					<img src="assets/img/img-click-3.png" alt="video call example"/>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>
+<footer>
+	<div class="say-hi">
+		<p id="rocket">Do you wanna rocket?</p>
+		<p id="here">Say hi! <a href="mailto:hola@theleftbit.com" role="link" title="Contact by email"><u>Here</u> 📩</a></p>
+	</div>
+	<div class="projects">
+		<p id="projects-first-line"></p>
+		<p id="projects-second-line"></p>
+	</div>
+	<img src="assets/img/ic-arrow-big.svg" alt="arrow"/>
+</footer>
+<script type="text/javascript" src="code.min.js"></script>
+<script type="text/javascript" src="https://unpkg.com/fullpage.js/dist/fullpage.extensions.min.js"></script>
+</body>
 </html>
