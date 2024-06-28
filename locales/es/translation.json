@@ -1,0 +1,105 @@
+{
+  "language": "Idioma",
+  "footer": {
+    "contact": "Contacto",
+    "mail": "Correo",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "trademark": "The Left Bit",
+    "dontusecookies": "No utilizamos cookies :)",
+    "privacyAndLegal": "Privacidad y Legal",
+    "doYouHaveAnIdea": "¿Tienes una idea?",
+    "happyToTalk": "Estamos encantados de hablar contigo",
+    "developIt": "sobre cómo desarrollarla.",
+    "letsTalk": "¡Hablemos!"
+  },
+  "pages": "Páginas",
+  "header": {
+    "theTeam": "El Equipo",
+    "ourMethod": "Nuestro Método",
+    "freeConsultation": "Consulta Gratuita"
+  },
+  "next": "Siguiente",
+  "previous": "Anterior",
+  "product": {
+    "platforms": "Plataformas",
+    "client": "Cliente",
+    "techStack": "Stack Técnico"
+  },
+  "section": {
+    "opening": {
+      "titleLine1": "Píxeles sólidos,",
+      "titleLine2": "elaborados y bonitos",
+      "subtitle1": "Conoce a tu nuevo socio en software nativo.",
+      "subtitle2": "Ayudamos a las empresas a desarrollar software con propósito,",
+      "subtitle3": "mantenible y sólido"
+    },
+    "trustedBy": {
+      "title": "CONFIADO POR:"
+    },
+    "quotes": {
+      "title": "Según nuestros clientes"
+    },
+    "products": {
+      "title": "Algunos de nuestros proyectos"
+    },
+    "avoidMistakes": {
+      "title": "Los socios de The Left Bit evitan errores costosos",
+      "unneededFeatures": "Funcionalidades innecesarias",
+      "wrongTechnology": "Tecnología incorrecta",
+      "wrongSpecialists": "Especialistas equivocados",
+      "recruitingAndHiring": "Contratación y selección"
+    },
+    "fromFixedToSlim": {
+      "fromFatFixedCost": "DE COSTE FIJO ELEVADO",
+      "toSlimVariableCost": "A COSTE VARIABLE AJUSTADO"
+    },
+    "makeBusiness": {
+      "makeYourBusiness": "Haz realidad tu idea de negocio con nosotros",
+      "weWillHelp": "Te ayudaremos a construir un producto robusto y funcional listo para el mercado",
+      "mvpStart": "Inicio de MVP",
+      "ongoingRelationship": "Relación continua",
+      "mvpFigure1": "Importe medio para un MVP",
+      "mvpFigure2": "Tiempo medio hasta el mercado",
+      "mvpFigure3": "Tasa de satisfacción del cliente. Siempre",
+      "ongoingFigure1": "Más económico que el coste por desarrollador",
+      "ongoingFigure2": "Ciclo de Release",
+      "ongoingFigure3": "Crash Free apps",
+      "bookAFreeConsultation": "Reserva una consulta gratuita"
+    },
+    "weDontWant": {
+      "titleFirst": "No queremos clientes, queremos ",
+      "titleItalics": "colaboraciones"
+    },
+    "weThink": {
+      "title1": "Pensamos",
+      "message1": "Te ayudamos a enfocar tu producto digital hacia tus objetivos empresariales y las necesidades de los usuarios",
+      "title2": "Creamos",
+      "message2": "Construimos software robusto, ligero y mantenible para que puedas seguir trabajando con él después de un MVP",
+      "title3": "Resolvemos",
+      "message3": "Colaboramos con empresas para adquirir un conocimiento profundo de su negocio y mejorar continuamente el producto"
+    },
+    "ourMethod": {
+      "method": {
+        "title": "Our Method",
+        "description": "Concentramos nuestros esfuerzos en ofrecer valor tan pronto como sea posible. Creemos en una estratégia lean para crecer gracias a iteraciones rápidas basadas en datos reales."
+      },
+      "tech": {
+        "title": "Our tech stack",
+        "description": "Adaptamos nuestra tecnologia a les necesidades de nuestros colaboradores, no al revés. Tomamos en consideración el presupuesto, las implicaciones a largo plazo y las necesidades del proyecto para ofrecer exactamente lo que nuestros clientes necesitan"
+      },
+      "webTechnologies": "Tecnologias Web",
+      "nativeIosApps": "Apps iOS",
+      "nativeAndroidApps": "Apps Android",
+      "backendDevelopment": "Desarrollo de Backend"
+    },
+    "team": {
+      "ourTeam": "Nuestro equipo",
+      "unparalleledProfessionals": "Solo trabajamos con profesionales excepcionales que tienen una visión integral cuando se trata de construir software.",
+      "careAboutBusinessTechDesign": "Todos nos preocupamos por negocios, tecnología y diseño.",
+      "wantToJoinTalk": "¿Quieres unirte / hablar?",
+      "alwaysHappyWorking": "Siempre estamos encantados de trabajar con estrellas profesionales en la industria. Si crees que encajas en nuestra cultura, déjanos un mensaje y hablemos :)",
+      "letsTalk": "Hablemos"
+    }
+  }
+}

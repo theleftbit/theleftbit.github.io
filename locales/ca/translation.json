@@ -1,0 +1,105 @@
+{
+  "language": "Idioma",
+  "footer": {
+    "contact": "Contacte",
+    "mail": "Correu",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "trademark": "The Left Bit",
+    "dontusecookies": "No fem servir galetes :)",
+    "privacyAndLegal": "Privadesa i Legal",
+    "doYouHaveAnIdea": "Tens una idea?",
+    "happyToTalk": "Estem encantats de parlar amb tu",
+    "developIt": "sobre com desenvolupar-la.",
+    "letsTalk": "Parlem!"
+  },
+  "pages": "Pàgines",
+  "header": {
+    "theTeam": "L'Equip",
+    "ourMethod": "El Nostre Mètode",
+    "freeConsultation": "Consulta Gratuita"
+  },
+  "next": "Següent",
+  "previous": "Anterior",
+  "product": {
+    "platforms": "Plataformes",
+    "client": "Client",
+    "techStack": "Stack Tècnic"
+  },
+  "section": {
+    "opening": {
+      "titleLine1": "Píxels sòlids,",
+      "titleLine2": "elaborats i bonics",
+      "subtitle1": "Coneix el teu nou soci en programari natu.",
+      "subtitle2": "Ajudem les empreses a desenvolupar sofware amb propòsit,",
+      "subtitle3": "mantenible i sòlid"
+    },
+    "trustedBy": {
+      "title": "CONFIAT PER:"
+    },
+    "quotes": {
+      "title": "Segons els nostres clients"
+    },
+    "products": {
+      "title": "Alguns dels nostres projectes"
+    },
+    "avoidMistakes": {
+      "title": "Els socis de The Left Bit eviten errors costosos",
+      "unneededFeatures": "Funcionalitats innecessàries",
+      "wrongTechnology": "Tecnologia incorrecta",
+      "wrongSpecialists": "Especialistes equivocats",
+      "recruitingAndHiring": "Contractació i selecció"
+    },
+    "fromFixedToSlim": {
+      "fromFatFixedCost": "DE COST FIX ELEVAT",
+      "toSlimVariableCost": "A COST VARIABLE AJUSTAT"
+    },
+    "makeBusiness": {
+      "makeYourBusiness": "Fes realitat la teva idea de negoci amb nosaltres",
+      "weWillHelp": "Et ajudarem a construir un producte robust i funcional llest per al mercat",
+      "mvpStart": "Inici de MVP",
+      "ongoingRelationship": "Relació continuada",
+      "mvpFigure1": "Import mitjà per a un MVP",
+      "mvpFigure2": "Temps mitjà fins al mercat",
+      "mvpFigure3": "Taxa de satisfacció del client. Sempre",
+      "ongoingFigure1": "Más econòmic que el cost per desenvolupador",
+      "ongoingFigure2": "Cicle de Release",
+      "ongoingFigure3": "Crash Free apps",
+      "bookAFreeConsultation": "Reserva una consulta gratuïta"
+    },
+    "weDontWant": {
+      "titleFirst": "No volem clients, volem ",
+      "titleItalics": "col·laboracions"
+    },
+    "weThink": {
+      "title1": "Pensem",
+      "message1": "Us ajudem a enfocar el vostre producte digital cap als vostres objectius empresarials i les necessitats dels usuaris",
+      "title2": "Creem",
+      "message2": "Construïm programari robust, lleuger i mantenible perquè pugueu continuar treballant amb ell després d'un MVP",
+      "title3": "Resolem",
+      "message3": "Col·laborem amb empreses per adquirir un coneixement profund del seu negoci i millorar contínuament el producte"
+    },
+    "ourMethod": {
+      "method": {
+        "title": "Our Method",
+        "description": "Concentrem els nostres esforços en oferir valor tan aviat com sigui possible. Creiem en una estratègia lean per tal de créixer gràcies a iteracions ràpides basades en dades reals."
+      },
+      "tech": {
+        "title": "Our tech stack",
+        "description": "Adaptem la nostra tecnologia a les necessitats dels nostres col·laboradors, no a l'inrevés. Prenem en consideració el pressuposat, les implicacions a llarg termini i les necessitats del projecte per tal d'oferir exactament allò que els nostres clients necessiten."
+      },
+      "webTechnologies": "Tecnologies Web",
+      "nativeIosApps": "Apps natives iOS",
+      "nativeAndroidApps": "Apps natives Android",
+      "backendDevelopment": "Desenvolupament de Backend"
+    },
+    "team": {
+      "ourTeam": "El nostre equip",
+      "unparalleledProfessionals": "Només treballem amb professionals excepcionals amb una visió holística alhora de construir software.",
+      "careAboutBusinessTechDesign": "A tots ens importa el negoci, la tecnologia i el disseny.",
+      "wantToJoinTalk": "Vols unir-te / parlar?",
+      "alwaysHappyWorking": "Sempre estem encantats de treballar amb professionals estrelles de la indústria. Si creus que encaixes amb la nostra cultura, deixa'ns un missatge i parlem :)",
+      "letsTalk": "Parlem"
+    }
+  }
+}

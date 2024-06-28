@@ -1,0 +1,105 @@
+{
+  "language": "Language",
+  "footer": {
+    "contact": "Contact",
+    "mail": "Mail",
+    "linkedin": "LinkedIn",
+    "twitter": "Twitter",
+    "trademark": "The Left Bit",
+    "dontusecookies": "We don't use cookies :)",
+    "privacyAndLegal": "Privacy and Legal",
+    "doYouHaveAnIdea": "Do you have an idea?",
+    "happyToTalk": "We're happy to talk with you",
+    "developIt": "about how to develop it.",
+    "letsTalk": "Let's Talk!"
+  },
+  "pages": "Pages",
+  "header": {
+    "theTeam": "The Team",
+    "ourMethod": "Our Method",
+    "freeConsultation": "Free Consultation"
+  },
+  "next": "Next",
+  "previous": "Previous",
+  "product": {
+    "platforms": "Platforms",
+    "client": "Client",
+    "techStack": "Tech Stack"
+  },
+  "section": {
+    "opening": {
+      "titleLine1": "Solid, crafted",
+      "titleLine2": "& beautiful pixels",
+      "subtitle1": "Meet your new native software partner.",
+      "subtitle2": "We help companies develop purposeful,",
+      "subtitle3": "maintainable & solid software"
+    },
+    "trustedBy": {
+      "title": "TRUSTED BY:"
+    },
+    "quotes": {
+      "title": "In our clients' words"
+    },
+    "products": {
+      "title": "Some of our projects"
+    },
+    "avoidMistakes": {
+      "title": "The Left Bit's partners avoid expensive mistakes",
+      "unneededFeatures": "Unneeded features",
+      "wrongTechnology": "Wrong technology",
+      "wrongSpecialists": "Wrong specialists",
+      "recruitingAndHiring": "Recruiting & Hiring"
+    },
+    "fromFixedToSlim": {
+      "fromFatFixedCost": "FROM FAT FIXED COST",
+      "toSlimVariableCost": "TO SLIM VARIABLE COST"
+    },
+    "makeBusiness": {
+      "makeYourBusiness": "Make your business idea a reality with us",
+      "weWillHelp": "We will help build a robust & functional product ready to market",
+      "mvpStart": "MVP start",
+      "ongoingRelationship": "Ongoing relationship",
+      "mvpFigure1": "Average ticket for an MVP",
+      "mvpFigure2": "Average time to market",
+      "mvpFigure3": "Client satisfaction rate. Always",
+      "ongoingFigure1": "Cheaper than market rate developer",
+      "ongoingFigure2": "Release cycle",
+      "ongoingFigure3": "Crash Free apps",
+      "bookAFreeConsultation": "Book a free consultation"
+    },
+    "weDontWant": {
+      "titleFirst": "We don't want clients, we want ",
+      "titleItalics": "partnerships"
+    },
+    "weThink": {
+      "title1": "We think",
+      "message1": "We help you focus your digital product towards your business objectives and user needs",
+      "title2": "We create",
+      "message2": "We build robust, lightweight, and maintainable software so you can continue working with it after an MVP",
+      "title3": "We solve",
+      "message3": "We partner with companies to gain a deep understanding of their business and continually improve the product"
+    },
+    "ourMethod": {
+      "method": {
+        "title": "Our Method",
+        "description": "We concentrate our efforts in offering value as soon as possible. We believe in a lean strategy to grow through fast iteration based in real data."
+      },
+      "tech": {
+        "title": "Our tech stack",
+        "description": "We adapt our technology to our partner’s needs, not the other way around. We take in consideration budget, long-term implications and project needs to offer exactly what our clients need."
+      },
+      "webTechnologies": "Web technologies",
+      "nativeIosApps": "iOS apps",
+      "nativeAndroidApps": "Android apps",
+      "backendDevelopment": "Backend development"
+    },
+    "team": {
+      "ourTeam": "Our team",
+      "unparalleledProfessionals": "We only work with unparalleled professionals that have a holistic point of view when it comes to building software.",
+      "careAboutBusinessTechDesign": "We all care about business, tech and design.",
+      "wantToJoinTalk": "Want to join / talk?",
+      "alwaysHappyWorking": "We’re always happy to working with pro stars in the industry. If you feel you fit our culture, please leave us a line and let’s talk :)",
+      "letsTalk": "Let's Talk"
+    }
+  }
+}
