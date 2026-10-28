@@ -1,0 +1,1 @@
+import{t as e}from"./emailCopy.Bd6di-mx.js";e();var t=document.getElementById(`menu-button`),n=document.getElementById(`mobile-menu`);t?.addEventListener(`click`,()=>{let e=t.getAttribute(`aria-expanded`)===`true`;t.setAttribute(`aria-expanded`,(!e).toString()),n&&(n.style.maxHeight=e?`0`:`${n.scrollHeight}px`)});
