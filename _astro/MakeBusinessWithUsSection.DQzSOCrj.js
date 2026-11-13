@@ -1,4 +1,4 @@
-import{n as e}from"./rolldown-runtime.WkwZ5CU-.js";import{i as t,n,r,t as i}from"./translation.DFfDp2SO.js";import{t as a}from"./react.CmU_e8vp.js";var o=`https://www.videoask.com/fagttujhs`,s=t();function c({title:e}){return(0,s.jsx)(`a`,{href:o,target:`_blank`,rel:`noopener noreferrer`,className:`inline-flex self-start rounded-full
+import{n as e}from"./rolldown-runtime.WkwZ5CU-.js";import{i as t,n,r,t as i}from"./translation.D1j3nBg1.js";import{t as a}from"./react.CmU_e8vp.js";var o=`https://www.videoask.com/fagttujhs`,s=t();function c({title:e}){return(0,s.jsx)(`a`,{href:o,target:`_blank`,rel:`noopener noreferrer`,className:`inline-flex self-start rounded-full
                 bg-brand-500 custom-hover custom-hover-brand
                 mx-auto
                 sm:mx-0
