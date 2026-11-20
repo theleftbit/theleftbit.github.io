@@ -1,0 +1,20 @@
+Technology marks remain the property of their respective owners.
+
+React, Next.js, Astro, Swift, Jetpack Compose, Kotlin, Django, Node.js, PostgreSQL:
+https://github.com/devicons/devicon (MIT)
+https://github.com/devicons/devicon/blob/master/LICENSE
+
+Claude:
+https://simpleicons.org/ (CC0)
+https://cdn.simpleicons.org/claude/D97757
+
+OpenAI:
+https://commons.wikimedia.org/wiki/File:ChatGPT_logo.svg
+
+Skip:
+https://skip.tools/favicon.svg
+
+SwiftUI uses the Swift mark. Accessibility uses an inline universal access symbol.
+
+Herdr:
+https://herdr.dev/live/icons/herdr.png

@@ -1,0 +1,1 @@
+import{t as e}from"./emailCopy.Bd6di-mx.js";e();
