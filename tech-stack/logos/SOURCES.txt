@@ -18,3 +18,6 @@ SwiftUI uses the Swift mark. Accessibility uses an inline universal access symbo
 
 Herdr:
 https://herdr.dev/live/icons/herdr.png
+
+SwiftUI:
+Provided by The Left Bit (Apple SwiftUI app icon)
