@@ -1,4 +1,4 @@
-import{n as e}from"./rolldown-runtime.WkwZ5CU-.js";import{n as t}from"./site.DiWQyP1g.js";import{i as n,n as r,r as i,t as a}from"./translation.DIEu9kqu.js";import{t as o}from"./react.CmU_e8vp.js";var s=n();function c({title:e}){return(0,s.jsx)(`a`,{href:t,target:`_blank`,rel:`noopener noreferrer`,className:`inline-flex self-start rounded-full
+import{n as e}from"./rolldown-runtime.WkwZ5CU-.js";import{n as t}from"./site.DiWQyP1g.js";import{i as n,n as r,r as i,t as a}from"./translation.DlGwWrRB.js";import{t as o}from"./react.CmU_e8vp.js";var s=n();function c({title:e}){return(0,s.jsx)(`a`,{href:t,target:`_blank`,rel:`noopener noreferrer`,className:`inline-flex self-start rounded-full
                 bg-brand-500 custom-hover custom-hover-brand
                 mx-auto
                 sm:mx-0
